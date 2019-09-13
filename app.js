@@ -134,7 +134,7 @@ app.post("/register", function(req,res){
 			return res.render("register", {error:err.message});
 		}
 		passport.authenticate("local")(req, res, function(){
-										req.flash("success", "Welcome to Purrfect Match!" + user.username);
+										req.flash("success", "Welcome to Purrfect Match! " + user.username);
 									   res.redirect("/cat");
 									   });
 	});
