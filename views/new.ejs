@@ -1,0 +1,22 @@
+<% include partials/header %>
+<div class="container">
+	<div class="row">
+		<h1>Rescue this cat</h1>
+		<form action="/cat" method="POST">
+			<div class="form-group">
+				<input class="form-control" type="text", name="catname", placeholder="cat's name">
+			</div>
+			<div class="form-group">
+				<input class="form-control" type="text", name="image", placeholder="image url">
+			</div>
+			<div class="form-group">
+				<input class="form-control" type="text", name="description", placeholder="description">
+			</div>
+			<div class="form-group">
+				<button class="btn btn-lg btn-primary">Upload!</button>
+			</div>
+		</form>
+		<a href="/cat">Go Back</a>
+	</div>
+</div>
+<% include partials/footer%>

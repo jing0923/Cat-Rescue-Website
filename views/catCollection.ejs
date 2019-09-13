@@ -1,0 +1,29 @@
+<% include partials/header %>
+
+<div class="container">
+	<header class="jumbotron">
+		<div>
+		<h2><i class="fa fa-heart fa-fw"></i> Everyday is Caturday!</h2>
+			<p>Find a forgotten feline? <a href="/cat/new">Post it in here~</a></p>
+		</div>
+	</header>
+	
+	<div class="row">
+		<% cats.forEach(function(cat){  %>
+		<div class="col-md-3 col-sm-6">
+			<div class="thumbnail">
+			<div class="caption">
+				<h4><%= cat.name %></h4>
+				</div>
+				<img src="<%= cat.image %>">
+			<p><a href="/cat/<%=cat._id%>" class="btn btn-primary">More Info</a></p>
+			 </div>
+		</div>
+		<% }); %>
+	</div>	
+</div>
+
+
+<a href="/">Go Back To The Main Page!</a>
+
+<% include partials/footer %>

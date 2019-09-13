@@ -1,0 +1,69 @@
+body { padding-top: 100px; }
+
+    .navbar-inverse {
+      background: #ff9999;
+      color: white;
+	font-family: 'Single Day', cursive;
+	border-color:#ff9999;
+    }
+    .navbar-inverse .navbar-brand, .navbar-inverse a{
+      	color:white;
+		font-size:2rem;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+      color: white;
+		font-size:1.5rem;
+    } 
+
+.jumbotron {
+      color: #ff9999;
+		font-size:5rem;
+		background-color:white;
+		text-align: center;
+		padding:10px;
+    }
+
+.btn {
+    color: #fff;
+    background-color: #ff9999;
+    border-color: #ff9999;
+}
+
+.thumbnail{
+	padding:10px,auto;
+	border:2px,solid,#ff9999;
+	text-align:center;
+}
+.thumbnail img{
+	width:100%;
+	height:300px;
+	padding-bottom:15px;
+}
+.thumbnail .caption{
+	padding:10px;
+	color: #ff9999;
+	font-size:3rem;
+	text-align:center;	
+}
+.thumbnail .btn{
+	padding-top:5px;
+	background-color: #ff9999;
+	color:white;
+	border-color: #ff9999;
+	vertical-align:middle;
+}
+
+
+#big img{
+	width:100%;
+	height:500px;
+	padding:5px;
+}
+
+#big h4{
+	font-family: 'Single Day', cursive;
+	color:#ff9999;
+}
+
+
+
